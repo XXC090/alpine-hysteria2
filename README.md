@@ -9,7 +9,7 @@ wget -O hy2.sh https://raw.githubusercontent.com/XXC090/alpine-hysteria2/refs/he
 
 ## 说明：  
 配置文件：/etc/hysteria/config.yaml  
-使用自签名证书，默认端口7000，安全tls，SNI为： www.apple.com  
+使用自签名证书，默认端口6000，安全tls，SNI为： www.apple.com  
 随系统自启动  
 看状态 service hysteria status  
 重启 service hysteria restart  
