@@ -3,7 +3,7 @@
 
 ## 一键食用
 ```
-wget -O hy2.sh https://raw.githubusercontent.com/zrlhk/alpine-hysteria2/main/hy2.sh  && sh hy2.sh
+wget -O hy2.sh https://raw.githubusercontent.com/XXC090/alpine-hysteria2/refs/heads/main/hy2.sh  && sh hy2.sh
 ```
 重复执行，会覆盖密码。  
 
