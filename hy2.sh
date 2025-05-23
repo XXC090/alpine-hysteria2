@@ -10,7 +10,7 @@ GENPASS="$(generate_random_password)"
 
 echo_hysteria_config_yaml() {
   cat << EOF
-listen: :40443
+listen: :7000
 
 
 #有域名，使用CA证书
@@ -31,7 +31,7 @@ auth:
 masquerade:
   type: proxy
   proxy:
-    url: https://bing.com/
+    url: https://www.apple.com/
     rewriteHost: true
 EOF
 }
